@@ -1,0 +1,31 @@
+name: thesis
+
+channels:
+  - rapidsai
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.8
+  - pip
+
+  - pyarrow
+  - pandas
+  - numpy
+  - dask
+  - cudf=0.19
+  - xlrd
+  - openpyxl
+  - python-dotenv
+  
+  - jupyterlab
+  - jupyterlab-git
+  - jupyterlab-lsp
+  - python-language-server[flake8]
+  - black
+  - isort
+  - jupyterlab_code_formatter
+  
+  - pip:
+    - jupyterlab-sublime
