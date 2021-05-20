@@ -26,6 +26,7 @@ dependencies:
   - black
   - isort
   - jupyterlab_code_formatter
+  - dvc
   
   - pip:
     - jupyterlab-sublime
