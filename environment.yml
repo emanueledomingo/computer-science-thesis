@@ -18,6 +18,7 @@ dependencies:
   - xlrd
   - openpyxl
   - python-dotenv
+  - matplotlib
   
   - jupyterlab
   - jupyterlab-git
