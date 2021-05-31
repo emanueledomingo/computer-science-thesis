@@ -19,6 +19,8 @@ dependencies:
   - openpyxl
   - python-dotenv
   - matplotlib
+  - pymapd
+  - modin
   
   - jupyterlab
   - jupyterlab-git
