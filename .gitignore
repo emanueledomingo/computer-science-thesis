@@ -130,3 +130,7 @@ dmypy.json
 
 # tmp
 NOTES.md
+
+.virtual_documents/
+/notebooks/dask-worker-space
+dask-worker-space
