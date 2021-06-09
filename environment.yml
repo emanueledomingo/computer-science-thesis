@@ -15,14 +15,17 @@ dependencies:
   - numpy
   - dask
   - cudf=0.19
+  - cudatoolkit=11.0
   - xlrd
   - openpyxl
   - python-dotenv
   - matplotlib
-  - pymapd
   - modin
-  
+
+  - pymapd
+
   - jupyterlab
+  - anaconda::ipykernel
   - jupyterlab-git
   - jupyterlab-lsp
   - python-language-server[flake8]
