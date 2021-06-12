@@ -10,3 +10,10 @@ CREATE TABLE IF NOT EXISTS online_retail (
 );
 
 COPY online_retail FROM '/data/raw/online_retail_II_x1.csv';
+
+CREATE TABLE IF NOT EXISTS stock_codes (  
+    StockCode    TEXT, 
+    Price        DOUBLE
+);
+
+COPY stock_codes FROM '/data/raw/online_retail_II_indexes.csv';
