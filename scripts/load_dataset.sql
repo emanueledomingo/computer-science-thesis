@@ -9,4 +9,4 @@ CREATE TABLE IF NOT EXISTS online_retail (
     Country      TEXT 
 );
 
-COPY online_retail FROM '/data/raw/online_retail_II_x1.csv';
+COPY online_retail FROM '/data/raw/online_retail_II_x20.csv';
